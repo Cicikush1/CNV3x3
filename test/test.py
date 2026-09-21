@@ -9,7 +9,7 @@ from cocotb.clock import Clock
 from cocotb.triggers import ClockCycles, FallingEdge, ReadOnly
  
 SHIFT_MAX = 8          # 4-bit shift field; values above SHIFT_MAX clamp to it
-BIT0 = "round"         # config bit 0:  "round"  -> round enable (as submitted)
+BIT0 = "signed"         # config bit 0:  "round"  -> round enable (as submitted)
                        #                "signed" -> signed int8 out, always round
 CUT_SAFE = False       # True if the phase pipe waits for tvalid (bubbles allowed
                        # inside a window). False: one pixel per clock, no bubbles.
