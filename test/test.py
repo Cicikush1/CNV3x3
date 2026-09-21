@@ -8,7 +8,6 @@ import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import ClockCycles, FallingEdge, ReadOnly
  
-# ===================== what the chip is - edit if the design changes =========
 SHIFT_MAX = 8          # 4-bit shift field; values above SHIFT_MAX clamp to it
 BIT0 = "round"         # config bit 0:  "round"  -> round enable (as submitted)
                        #                "signed" -> signed int8 out, always round
