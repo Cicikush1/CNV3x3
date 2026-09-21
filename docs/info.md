@@ -8,14 +8,8 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
 Standard MAC operation for linear convolution
 ## How to test
-
-Explain how to use your project
 Feed 9 Pixels sequentially, 8 bits each with tuser pin ran high when 1st of each 9 pixel array is fed. wghupdates switches the pixel feed line into weight feed and rndgset sets the shifting amount to accomodate different filter structures.
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
 none
